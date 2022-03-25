@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cv-project/static/css/main.ae145fa0.css",
+    "main.js": "/cv-project/static/js/main.0b1c624f.js",
+    "static/js/787.34a20539.chunk.js": "/cv-project/static/js/787.34a20539.chunk.js",
+    "static/media/dog.jpg": "/cv-project/static/media/dog.5b5f59a8ca01bf89a044.jpg",
+    "index.html": "/cv-project/index.html",
+    "main.ae145fa0.css.map": "/cv-project/static/css/main.ae145fa0.css.map",
+    "main.0b1c624f.js.map": "/cv-project/static/js/main.0b1c624f.js.map",
+    "787.34a20539.chunk.js.map": "/cv-project/static/js/787.34a20539.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae145fa0.css",
+    "static/js/main.0b1c624f.js"
+  ]
+}
