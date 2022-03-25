@@ -1,13 +1,135 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  display: flex;
+  padding: 50px 50px;
+  gap: 50px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.componentInputs {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 630px;
+  border: solid black 1px;
+  overflow: scroll;
+
+}
+
+.generatedInfo {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 630px;
+  border: solid black 1px;
+}
+
+header {
+  background-color: rgb(44, 103, 143);
+  color: rgb(245, 245, 245);
+}
+
+.heading {
+  margin-left: 30px
+}
+
+.wrapper {
+  display: flex;
+  flex-grow: 1;
+  width: 630px;
+  
+}
+
+.components {
+
+background-color:#ffffff;
+flex: 2.5;
+
+}
+
+.sideBar {
+
+background-color: rgb(232, 233, 241);
+flex: 1;
+
+}
+
+.preview {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 15px;
+  gap: 10px;
+
+}
+
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.name {
+  margin-bottom: 0;
+}
+
+.jobTitle {
+  margin-top: 10px;
+}
+
+h4 {
+  color: rgb(44, 103, 143);
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+button {
+  width: 60px;
+  background-color: rgb(44, 103, 143);
+  color: rgb(245, 245, 245);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.addBack {
+  margin-left: 30px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 6px 5px;
+  cursor: pointer;
+  height: 7px;
+  line-height: 10px;
+  font-size: 13px;
 }
