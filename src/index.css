@@ -3,11 +3,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -28,7 +27,6 @@ code {
   width: 630px;
   border: solid black 1px;
   overflow: scroll;
-
 }
 
 .generatedInfo {
@@ -45,28 +43,23 @@ header {
 }
 
 .heading {
-  margin-left: 30px
+  margin-left: 30px;
 }
 
 .wrapper {
   display: flex;
   flex-grow: 1;
   width: 630px;
-  
 }
 
 .components {
-
-background-color:#ffffff;
-flex: 2.5;
-
+  background-color: #ffffff;
+  flex: 2.5;
 }
 
 .sideBar {
-
-background-color: rgb(232, 233, 241);
-flex: 1;
-
+  background-color: rgb(232, 233, 241);
+  flex: 1;
 }
 
 .preview {
@@ -80,9 +73,7 @@ flex: 1;
   flex-direction: column;
   margin: 10px 15px;
   gap: 10px;
-
 }
-
 
 h3 {
   margin-top: 20px;
@@ -105,7 +96,6 @@ h4 {
   display: flex;
   gap: 20px;
   justify-content: center;
-
 }
 
 button {

@@ -1,17 +1,17 @@
-import React, { Component } from 'react'
-import dog from "./dog.jpg"
-
+import React, { Component } from "react";
+import dog from "./dog.jpg";
 
 export class Sidebar extends Component {
   render() {
+    const personalInfo = this.props.personal;
 
-    const personalInfo = this.props.personal
-
-    const { photo, address, city, state, phone, email } = personalInfo
+    const { photo, address, city, state, phone, email } = personalInfo;
 
     return (
       <div className="general--wrapper">
-        <div className="photo"><img src={dog} alt="" /></div>
+        <div className="photo">
+          <img src={dog} alt="" />
+        </div>
         <h4>Personal Details</h4>
         <hr />
         <h5 className="personalDetails">Address</h5>
@@ -23,10 +23,9 @@ export class Sidebar extends Component {
         <span className="details">{phone}</span>
         <h5 className="personalDetails">Email</h5>
         <span className="details">{email}</span>
-      
-    </div>
-    )
+      </div>
+    );
   }
 }
 
-export default Sidebar
+export default Sidebar;

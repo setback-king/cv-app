@@ -1,65 +1,63 @@
 .general--wrapper {
-    margin-left: 30px;
-    margin-right: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 h4 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 hr {
-    opacity: .4;
-    margin-top: 3px;
-    margin-bottom: 3px;
+  opacity: 0.4;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .description {
-    font-style: italic;
-    line-height: 25px;
-    font-size: 13px;
+  font-style: italic;
+  line-height: 25px;
+  font-size: 13px;
 }
 
 .details {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .personalDetails {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .statedetails {
-    margin-left: 5px;
-    font-size: 13px;
+  margin-left: 5px;
+  font-size: 13px;
 }
 
 .workForm {
-    display: flex;
-    flex-direction: column;
-    margin: 10px 15px;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 15px;
+  gap: 10px;
 }
 
 .compElement {
-    display: flex;
-    margin-bottom: 15px;
-    
-   
+  display: flex;
+  margin-bottom: 15px;
 }
 
 .work--details {
-    font-size: 13px;
-    font-weight: bold;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .dates {
-    width: 150px;
+  width: 150px;
 }
 
 img {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
-.photo{
-    margin-top: 25px;
+.photo {
+  margin-top: 25px;
 }
