@@ -1,6 +1,11 @@
 
 LIVE DEMO HERE ---->  https://setback-king.github.io/cv-app/
 
+This project was created using React. It testing my newly learned ability of using the useState hook. Users are able to create a CV and watch it dynamically update live. 
+
+<img width="1187" alt="Screen Shot 2022-07-20 at 11 49 07 AM" src="https://user-images.githubusercontent.com/90795553/180026874-0711062e-2120-4497-84eb-a429123583a2.png">
+
+
 
 # Getting Started with Create React App
 
